@@ -1,2 +1,9 @@
-document.querySelector("#bottone").addEventListener("click", function () {
-// 	console.log("cliccato");
+/*function onButtonClicked() {
+    console.log("Cliccato!");
+}
+
+document.querySelector("#bottone").addEventListener("click", onButtonClicked);*/
+
+document.querySelector("#bottone").addEventListener("click", () => {
+console.log("cliccato");
+});
