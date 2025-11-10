@@ -5,5 +5,7 @@
 document.querySelector("#bottone").addEventListener("click", onButtonClicked);*/
 
 document.querySelector("#bottone").addEventListener("click", () => {
-console.log("cliccato");
+    console.log("cliccato");
+
+    document.getElementById("img").src="./img/yellow_lamp.png";
 });
